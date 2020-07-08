@@ -15,7 +15,7 @@ const Addresses = (props) => {
     return (
         <div className="form-container w-50">
             <button className="btn btn-outline-dark"> Step2</button>
-            <h1 className="mb-5">Social Profiles</h1>
+            <h1 className="mb-5">Enter Address</h1>
             <div className="form-group">
                 <label htmlFor="address">Address</label>
                 <input type="text" className="form-control" name="address" onChange={inputChange} value={values.address} />
